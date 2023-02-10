@@ -1,0 +1,43 @@
+.sticker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: auto;
+  max-width: 200px;
+  min-width: 55px;
+  height: auto;
+  z-index: 100000;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(174, 97, 214);
+  font-size: 16px;
+  /* font-family: Verdana, geneva, sans-serif; */
+  /* font-weight: bold; */
+  padding: 5px 10px 6px;
+  line-height: 15px;
+  line-height: unset;
+  /* font-family: "Open Sans","Helvetica Neue",Verdana,Arial,sans-serif; */
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  pointer-events: none;
+  /* box-shadow: 0 3px 0 0 rgba(0,0,0,0.5); */
+}
+.sticker > .sticker-title {
+  color: rgb(240, 230, 255);
+  color: rgb(198, 255, 193);
+  color: rgb(184, 242, 179);
+  font-size: 18px;
+  font-size: 16px;
+  font-size: 23px;
+  line-height: 17px;
+  /* font-weight: bold; */
+}
+.sticker > .sticker-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-size: 14px;
+  font-size: 21px;
+  line-height: 15px;
+  /* margin-left: 4px; */
+}
